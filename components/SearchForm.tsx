@@ -4,8 +4,8 @@ import { Input } from "./ui/input";
 
 function SearchForm() {
   return (
-    <form>
-      <label className="flex-center mx-auto mt-10 w-full sm:-mt-10 sm:px-5">
+    <form className="flex-center mx-auto mt-10 w-full sm:-mt-10 sm:px-5">
+      <label className="flex-center relative w-full max-w-3xl">
         <Image
           src="/magnifying-glass.svg"
           className="absolute left-8"
