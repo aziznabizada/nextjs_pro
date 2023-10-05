@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className='min-h-screen bg-black-100 font-poppins' >{children}</body>
     </html>
   )
 }
